@@ -1,0 +1,2 @@
+UML syntax:
+https://www.tutorialspoint.com/uml/uml_basic_notations.htm
