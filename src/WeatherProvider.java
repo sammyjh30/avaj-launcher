@@ -2,13 +2,13 @@
 public class WeatherProvider {
 	private WeatherProvider weatherProvider;
 
-	String[]		weather;
+	private String[]		weather;
 
-	WeatherProvider(){}
+	private WeatherProvider(){}
 
 	public WeatherProvider		getProvider() {
 		return this.weatherProvider;
 	}
 
 	public String				getCurrentWeather(Coordinates coordinates) {}
-}
+}  

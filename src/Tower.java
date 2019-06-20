@@ -1,10 +1,11 @@
+import Flyable;
 
 public class Tower {
-	Flyable		*observerrs;
+	private Flyable		*observers;
 
-	void		register(Flyable flyable) {}
+	public void			register(Flyable flyable) {}
 
-	void		unregister(Flyable flyable) {}
+	public void			unregister(Flyable flyable) {}
 
-	void		conditionsChanged() {}
+	protected void		conditionsChanged() {}
 }

@@ -3,12 +3,12 @@ import Aircraft;
 import WeatherTower;
 
 public class Helicopter extends Aircraft implements Flyable{
-	WeatherTower weatherTower;
+	private WeatherTower weatherTower;
 
-	Helicopter(String name, Coordinates coordinates) {}
+	/* ~ package */ Helicopter(String name, Coordinates coordinates) {}
 
-	void	updateConditions(){}
+	public void	updateConditions(){}
 
-	void	registerTower(WeatherTower weatherTower) {}
+	public void	registerTower(WeatherTower weatherTower) {}
 	
 }

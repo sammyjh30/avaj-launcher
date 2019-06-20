@@ -2,13 +2,13 @@
 import Aircraft;
 import WeatherTower;
 
-public class JetPlain extends Aircraft {
-	WeatherTower weatherTower;
+public class JetPlain extends Aircraft implements Flyable{
+	private WeatherTower weatherTower;
 
-	JetPlain(String name, Coordinates coordinates) {}
+	/* ~ package*/ JetPlain(String name, Coordinates coordinates) {}
 
-	void	updateConditions(){}
+	public void	updateConditions(){}
 
-	void	registerTower(WeatherTower weatherTower) {}
+	public void	registerTower(WeatherTower weatherTower) {}
 	
 }

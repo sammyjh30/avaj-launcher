@@ -1,7 +1,7 @@
 import Aircraft;
 import WeatherTower;
 
-public class Baloon extends Aircraft {
+public class Baloon extends Aircraft implements Flyable{
 	WeatherTower weatherTower;
 
 	Baloon(String name, Coordinates coordinates) {}
