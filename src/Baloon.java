@@ -2,12 +2,12 @@ import Aircraft;
 import WeatherTower;
 
 public class Baloon extends Aircraft implements Flyable{
-	WeatherTower weatherTower;
+	private WeatherTower weatherTower;
 
-	Baloon(String name, Coordinates coordinates) {}
+	/* ~ package */ Baloon(String name, Coordinates coordinates) {}
 
-	void	updateConditions(){}
+	public void	updateConditions(){}
 
-	void	registerTower(WeatherTower weatherTower) {}
+	public void	registerTower(WeatherTower weatherTower) {}
 	
 }
