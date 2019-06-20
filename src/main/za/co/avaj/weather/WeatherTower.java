@@ -1,6 +1,7 @@
-package za.co.avaj.vehicles;
+//package za.co.avaj.weather;
 
 import Tower;
+
 import Coordinates;
 
 public class WeatherTower extends Tower {

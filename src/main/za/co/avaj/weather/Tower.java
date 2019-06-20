@@ -1,4 +1,4 @@
-package za.co.avaj.vehicles;
+package za.co.avaj.weather;
 
 import Flyable;
 
