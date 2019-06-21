@@ -1,6 +1,6 @@
 package za.co.avaj.vehicles;
 
-import WeatherTower;
+import za.co.avaj.weather.WeatherTower;
 
 interface Flyable {
 	public void		updateConditions();

@@ -1,9 +1,11 @@
+package za.co.avaj.weather;
+
 public class Coordinates {
 	private int		longitude;		//- in UML means private?
 	private int		latitude;
 	private int		height;
 
-	/* ~ package */  Coordinates(int longitude, int latitude, int height) {
+	Coordinates(int longitude, int latitude, int height) {
 		this.longitude = longitude;
 		this.latitude = latitude;
 		this.height = height;

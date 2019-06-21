@@ -1,3 +1,4 @@
+package za.co.avaj.weather;
 
 public class WeatherProvider {
 	private WeatherProvider weatherProvider;
@@ -10,5 +11,5 @@ public class WeatherProvider {
 		return this.weatherProvider;
 	}
 
-	public String				getCurrentWeather(Coordinates coordinates) {}
+	public String				getCurrentWeather(Coordinates coordinates) { return "Test";}
 }  

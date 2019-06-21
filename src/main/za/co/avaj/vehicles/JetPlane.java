@@ -1,15 +1,15 @@
 package za.co.avaj.vehicles;
 
-import Aircraft;
-import WeatherTower;
+import za.co.avaj.weather.Coordinates;
+import za.co.avaj.weather.WeatherTower;
 
-public class JetPlain extends Aircraft implements Flyable{
-	private WeatherTower weatherTower;
+public class JetPlain extends Aircraft implements Flyable {
+    private WeatherTower weatherTower;
 
-	/* ~ package*/ JetPlain(String name, Coordinates coordinates) {}
+    JetPlain(String name, Coordinates coordinates) {}
 
-	public void	updateConditions(){}
+    public void	updateConditions(){}
 
-	public void	registerTower(WeatherTower weatherTower) {}
-	
+    public void	registerTower(WeatherTower weatherTower) {}
+
 }
