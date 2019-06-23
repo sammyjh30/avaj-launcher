@@ -1,12 +1,9 @@
-package za.co.avaj.simulator;
-
 import java.io.*;
 import java.lang.String;
 
-public class Simulator {
+public class Main {
 
 	//Import what is needed.
-
 	public static void main (String[] args) {
 		if (args.length != 1 || args[0] != "scenario.txt") {
 			//Invalid arguments

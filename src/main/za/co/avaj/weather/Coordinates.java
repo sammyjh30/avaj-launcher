@@ -5,7 +5,8 @@ public class Coordinates {
 	private int		latitude;
 	private int		height;
 
-	Coordinates(int longitude, int latitude, int height) {
+	//Need to make this public for some reason?
+	public Coordinates(int longitude, int latitude, int height) {
 		this.longitude = longitude;
 		this.latitude = latitude;
 		this.height = height;

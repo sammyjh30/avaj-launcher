@@ -2,8 +2,14 @@ package za.co.avaj.vehicles;
 
 import za.co.avaj.weather.WeatherTower;
 
-interface Flyable {
+public interface Flyable {
+
 	public void		updateConditions();
 
 	public void		registerTower(WeatherTower weatherTower);
+
+	public String getFlyableName();
+
+	public long		getFlyableId();
+
 }
