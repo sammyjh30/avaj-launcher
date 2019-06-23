@@ -12,4 +12,6 @@ public interface Flyable {
 
 	public long		getFlyableId();
 
+	public String		getFlyableType();
+
 }

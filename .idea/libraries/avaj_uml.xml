@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="avaj_uml">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/avaj_uml.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

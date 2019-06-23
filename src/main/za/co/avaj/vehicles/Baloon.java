@@ -6,7 +6,7 @@ import za.co.avaj.weather.WeatherTower;
 public class Baloon extends Aircraft implements Flyable {
 	private WeatherTower weatherTower;
 
-	Baloon(String name, Coordinates coordinates) {
+	public Baloon(String name, Coordinates coordinates) {
 		super(name, coordinates); //Calls Parent class' constructor definition
 	}
 
@@ -20,5 +20,9 @@ public class Baloon extends Aircraft implements Flyable {
 
 	public long		getFlyableId() {
 		return (this.id);
+	}
+
+	public String		getFlyableType() {
+		return ("Baloon");
 	}
 }
