@@ -1,15 +1,26 @@
 package za.co.avaj.weather;
 
-public class WeatherProvider {
-	private WeatherProvider weatherProvider;
+import java.util.Random;
 
-	private String[]		weather;
+import static java.lang.Math.abs;
+
+public class WeatherProvider {
+	private static WeatherProvider weatherProvider = new WeatherProvider();
+
+	private static String[]		weather = {"RAIN", "FOG", "SUN", "SNOW"};
 
 	private WeatherProvider(){}
 
-	public WeatherProvider		getProvider() {
-		return this.weatherProvider;
+	public static WeatherProvider		getProvider() {
+		return weatherProvider;
 	}
 
-	public String				getCurrentWeather(Coordinates coordinates) { return "Test";}
+	public String				getCurrentWeather(Coordinates coordinates) {
+		Random rand = new Random();
+		int randInt = abs(rand.nextInt(coordinates.getHeight() +
+												coordinates.getLatitude() +
+												coordinates.getLatitude()));
+		randInt = randInt % 4;
+		return weather[randInt];
+	}
 }  

@@ -4,6 +4,7 @@ import za.co.avaj.vehicles.Flyable;
 import za.co.avaj.vehicles.Helicopter;
 import za.co.avaj.vehicles.JetPlane;
 import za.co.avaj.weather.Coordinates;
+import za.co.avaj.weather.WeatherProvider;
 import za.co.avaj.weather.WeatherTower;
 
 import java.io.*;
@@ -35,15 +36,15 @@ public class Main {
 			BufferedReader br = new BufferedReader(new FileReader(file));
 			String st;
 			int     line = 0;
+			// Read file
 			try {
 				while ((st = br.readLine()) != null) {
-//					System.out.println(st);
 					if (line == 0) {
 						if (isNumeric(st)) {
 							Integer.parseInt(st);
 						}
 					} else {
-						//Create aircraft
+						//Create and register aircraft
 						String details[] = st.split(" ");
 						if (details.length != 5) {
 							log.logToConsole("error", "Invalid details.");
@@ -67,15 +68,20 @@ public class Main {
 													Integer.parseInt(details[3]),
 													Integer.parseInt(details[4]))));
 									break;
-
 							}
 						}
-//						weatherTower.register(new Flyable());
 					}
 					line++;
 				}
 			} catch (IOException e) {
 				e.printStackTrace();
+			}
+			//Run simulation
+			while (numberOfRuns-- > 0) {
+				//generate random weather
+				//iterate through aircrafts applying "update condition"
+				//each update condition adjusts the coords and prints appropriate statement
+
 			}
 		}  catch ( FileNotFoundException e) {
 			e.printStackTrace();
