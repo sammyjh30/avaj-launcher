@@ -18,4 +18,14 @@ public class Logger {
 			System.out.println(message);
 		}
 	}
+
+	public void     logToFile(String type, String message) {
+		if (type.equals("error")) {
+			System.out.println((char)27 + "[31m" + "ERROR: " + (char)27 + "[37m" + message);
+		} else if (type.equals("warning")) {
+			System.out.println((char)27 + "[33m" + "WARNING: " + (char)27 + "[37m" + message);
+		} else {
+			System.out.println(message);
+		}
+	}
 }

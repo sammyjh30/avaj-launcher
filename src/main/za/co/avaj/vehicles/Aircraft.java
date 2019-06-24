@@ -1,5 +1,6 @@
 package za.co.avaj.vehicles;
 
+import za.co.avaj.logger.Logger;
 import za.co.avaj.weather.Coordinates;
 
 public class Aircraft {
@@ -7,6 +8,8 @@ public class Aircraft {
 	protected String			name;
 	protected Coordinates 		coordinates;
 	private static long			idCounter = 1;
+
+	protected Logger log = new Logger();
 
 	protected 		Aircraft(String name, Coordinates coordinates) {
 		this.name = name;

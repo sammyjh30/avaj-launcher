@@ -8,10 +8,9 @@ public interface Flyable {
 
 	public void		registerTower(WeatherTower weatherTower);
 
-	public String getFlyableName();
+	public String 		getFlyableName();
 
-	public long		getFlyableId();
+	public long			getFlyableId();
 
 	public String		getFlyableType();
-
 }
