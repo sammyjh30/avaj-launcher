@@ -3,6 +3,3 @@ https://www.tutorialspoint.com/uml/uml_basic_notations.htm
 
 Things to do:
 Default messages must log to file, errors to console
-Check if number of runs is positive
-Check if the height is valid before assigning it
-Random weather is generated for EACH aircraft, not the same for all

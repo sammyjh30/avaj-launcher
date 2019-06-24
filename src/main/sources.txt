@@ -4,7 +4,6 @@
 ./za/co/avaj/exceptions/InvalidWeatherException.java
 ./za/co/avaj/exceptions/InvalidAircraftException.java
 ./za/co/avaj/exceptions/FailedUnregisterException.java
-./za/co/avaj/simulator/Simulator.java
 ./za/co/avaj/vehicles/Baloon.java
 ./za/co/avaj/vehicles/Aircraft.java
 ./za/co/avaj/vehicles/JetPlane.java
@@ -15,4 +14,4 @@
 ./za/co/avaj/weather/Tower.java
 ./za/co/avaj/weather/WeatherProvider.java
 ./za/co/avaj/weather/Coordinates.java
-./Main.java
+./za.co.avaj.weather.Main.java

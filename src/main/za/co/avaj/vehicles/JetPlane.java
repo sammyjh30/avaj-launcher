@@ -39,9 +39,10 @@ public class JetPlane extends Aircraft implements Flyable {
 				height -= 7;
 				if (height <= 0) {
 					try {
-						weatherTower.unregister(this);
 						this.log.logToFile("default", this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
 								"landing.");
+						weatherTower.unregister(this);
+						return;
 					} catch (FailedUnregisterException e) {
 						e.printStackTrace();
 					}

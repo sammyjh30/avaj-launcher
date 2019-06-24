@@ -39,9 +39,10 @@ public class Helicopter extends Aircraft implements Flyable{
 				height -= 12;
 				if (height <= 0) {
 					try {
-						weatherTower.unregister(this);
 						this.log.logToFile("default", this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
 								"landing.");
+						weatherTower.unregister(this);
+						return;
 					} catch (FailedUnregisterException e) {
 						e.printStackTrace();
 					}

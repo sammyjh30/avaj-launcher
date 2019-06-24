@@ -4,7 +4,9 @@ import za.co.avaj.exceptions.FailedUnregisterException;
 import za.co.avaj.logger.Logger;
 import za.co.avaj.vehicles.Flyable;
 
+import java.io.Flushable;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Tower {
 	private ArrayList<Flyable> observers=new ArrayList<Flyable>();
@@ -27,8 +29,9 @@ public class Tower {
 	}
 
 	protected void		conditionsChanged() {
-		for (Flyable flyable : observers) {
-			flyable.updateConditions();
+		for (int i = 0; i < observers.size(); i++) {
+			observers.get(i).updateConditions();
 		}
+		//Cannot use foreach, it uses a pointer, so if you unregister it will break
 	}
 }
