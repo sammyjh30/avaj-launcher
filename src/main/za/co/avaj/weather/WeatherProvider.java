@@ -1,5 +1,7 @@
 package za.co.avaj.weather;
 
+import za.co.avaj.vehicles.Coordinates;
+
 import java.util.Random;
 
 import static java.lang.Math.abs;

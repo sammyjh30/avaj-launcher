@@ -3,7 +3,6 @@ package za.co.avaj.reader;
 import za.co.avaj.exceptions.InvalidAircraftException;
 import za.co.avaj.logger.Logger;
 import za.co.avaj.vehicles.*;
-import za.co.avaj.weather.Coordinates;
 import za.co.avaj.weather.WeatherTower;
 
 import java.io.*;

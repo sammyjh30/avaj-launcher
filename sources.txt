@@ -8,10 +8,10 @@
 ./src/main/za/co/avaj/vehicles/Aircraft.java
 ./src/main/za/co/avaj/vehicles/JetPlane.java
 ./src/main/za/co/avaj/vehicles/AircraftFactory.java
+./src/main/za/co/avaj/vehicles/Coordinates.java
 ./src/main/za/co/avaj/vehicles/Flyable.java
 ./src/main/za/co/avaj/vehicles/Helicopter.java
 ./src/main/za/co/avaj/weather/WeatherTower.java
 ./src/main/za/co/avaj/weather/Tower.java
 ./src/main/za/co/avaj/weather/WeatherProvider.java
-./src/main/za/co/avaj/weather/Coordinates.java
 ./src/main/za/co/avaj/weather/Main.java

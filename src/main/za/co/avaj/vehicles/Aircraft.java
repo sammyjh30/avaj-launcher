@@ -1,7 +1,6 @@
 package za.co.avaj.vehicles;
 
 import za.co.avaj.logger.Logger;
-import za.co.avaj.weather.Coordinates;
 
 public class Aircraft {
 	protected long				id;

@@ -2,13 +2,12 @@ package za.co.avaj.vehicles;
 
 import za.co.avaj.exceptions.FailedUnregisterException;
 import za.co.avaj.exceptions.InvalidWeatherException;
-import za.co.avaj.weather.Coordinates;
 import za.co.avaj.weather.WeatherTower;
 
 public class Helicopter extends Aircraft implements Flyable{
 	private WeatherTower weatherTower;
 
-	public Helicopter(String name, Coordinates coordinates) {
+	Helicopter(String name, Coordinates coordinates) {
 		super(name, coordinates); //Calls Parent class' constructor definition
 	}
 
@@ -20,26 +19,26 @@ public class Helicopter extends Aircraft implements Flyable{
 		try {
 			String weather = weatherTower.getWeather(this.coordinates);
 			if (weather.equalsIgnoreCase("RAIN")) {
-				this.log.logToFile("default", this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
+				this.log.logToFile(this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
 								"Oh no, this rain is going to mess up my blades! I just straightened them!");
 				longitude += 5;
 			} else if (weather.equalsIgnoreCase("FOG")) {
-				this.log.logToFile("default", this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
+				this.log.logToFile(this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
 						"I can't see anything!");
 				longitude += 1;
 			} else if (weather.equalsIgnoreCase("SUN")) {
-				this.log.logToFile("default", this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
+				this.log.logToFile(this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
 						"What a lovely day!");
 				longitude += 10;
 				height += 2;
 				if (height > 100) { height = 100; }
 			} else if (weather.equalsIgnoreCase("SNOW")) {
-				this.log.logToFile("default", this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
+				this.log.logToFile(this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
 						"Brrr! It's getting kind of chilly, huh?");
 				height -= 12;
 				if (height <= 0) {
 					try {
-						this.log.logToFile("default", this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
+						this.log.logToFile(this.getFlyableType() + "#" + this.getFlyableName() + "(" + this.getFlyableId() + "): " +
 								"landing.");
 						weatherTower.unregister(this);
 						return;

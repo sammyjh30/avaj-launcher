@@ -1,12 +1,12 @@
 package za.co.avaj.weather;
 
-import za.co.avaj.vehicles.Flyable;
+import za.co.avaj.vehicles.Coordinates;
 
 public class WeatherTower extends Tower {
 	public String		getWeather(Coordinates coordinates) {
 		return WeatherProvider.getProvider().getCurrentWeather(coordinates);
 	}
 
-	public void		changeWeather() { this.conditionsChanged();}
+	void		changeWeather() { this.conditionsChanged();}
 
 }

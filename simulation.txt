@@ -1,0 +1,188 @@
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Baloon#B2(2) registered to weather tower.
+Tower says: JetPlane#J1(3) registered to weather tower.
+Tower says: Helicopter#H1(4) registered to weather tower.
+Tower says: Helicopter#H2(5) registered to weather tower.
+Tower says: Helicopter#H3(6) registered to weather tower.
+Tower says: Baloon#B3(7) registered to weather tower.
+Tower says: JetPlane#J2(8) registered to weather tower.
+Tower says: Helicopter#H4(9) registered to weather tower.
+Baloon#B1(1): Splish splash, I was taking a bath!
+Baloon#B2(2): The snow is falling into my basket!
+JetPlane#J1(3) It's hard to see.. better move a bit slower!
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): What a lovely day!
+Baloon#B3(7): The snow is falling into my basket!
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+Helicopter#H4(9): I can't see anything!
+Baloon#B1(1): Splish splash, I was taking a bath!
+Baloon#B2(2): Floating through the clouds and sunshine!
+JetPlane#J1(3): The cold is gonna freeze my engines!
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): What a lovely day!
+Baloon#B3(7) This feels eerie. I hope I don't see a ghost!
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+Helicopter#H4(9): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B1(1): The snow is falling into my basket!
+Baloon#B1(1): landing.
+Tower says: Baloon#B1(1) unregistered to weather tower.
+JetPlane#J1(3): Rain! I better turn on my wipers!
+Helicopter#H1(4): What a lovely day!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B3(7): Splish splash, I was taking a bath!
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+Helicopter#H4(9): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B2(2): Floating through the clouds and sunshine!
+JetPlane#J1(3) It's hard to see.. better move a bit slower!
+Helicopter#H1(4): What a lovely day!
+Helicopter#H2(5): Brrr! It's getting kind of chilly, huh?
+Helicopter#H3(6): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B3(7): Splish splash, I was taking a bath!
+JetPlane#J2(8): Rain! I better turn on my wipers!
+Helicopter#H4(9): What a lovely day!
+Baloon#B2(2): Floating through the clouds and sunshine!
+JetPlane#J1(3): Rain! I better turn on my wipers!
+Helicopter#H1(4): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H2(5): Brrr! It's getting kind of chilly, huh?
+Helicopter#H3(6): What a lovely day!
+Baloon#B3(7): Splish splash, I was taking a bath!
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+Helicopter#H4(9): Brrr! It's getting kind of chilly, huh?
+Baloon#B2(2): Floating through the clouds and sunshine!
+JetPlane#J1(3) It's hard to see.. better move a bit slower!
+Helicopter#H1(4): Brrr! It's getting kind of chilly, huh?
+Helicopter#H2(5): What a lovely day!
+Helicopter#H3(6): What a lovely day!
+Baloon#B3(7): The snow is falling into my basket!
+Baloon#B3(7): landing.
+Tower says: Baloon#B3(7) unregistered to weather tower.
+Helicopter#H4(9): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B2(2): The snow is falling into my basket!
+JetPlane#J1(3) It's hard to see.. better move a bit slower!
+Helicopter#H1(4): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H2(5): I can't see anything!
+Helicopter#H3(6): Brrr! It's getting kind of chilly, huh?
+JetPlane#J2(8): Rain! I better turn on my wipers!
+Helicopter#H4(9): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B2(2): Splish splash, I was taking a bath!
+JetPlane#J1(3): Clear skies, let's go!
+Helicopter#H1(4): What a lovely day!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): Brrr! It's getting kind of chilly, huh?
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+Helicopter#H4(9): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B2(2): Floating through the clouds and sunshine!
+JetPlane#J1(3) It's hard to see.. better move a bit slower!
+Helicopter#H1(4): Brrr! It's getting kind of chilly, huh?
+Helicopter#H2(5): What a lovely day!
+Helicopter#H3(6): Brrr! It's getting kind of chilly, huh?
+JetPlane#J2(8): The cold is gonna freeze my engines!
+Helicopter#H4(9): Brrr! It's getting kind of chilly, huh?
+Baloon#B2(2) This feels eerie. I hope I don't see a ghost!
+JetPlane#J1(3) It's hard to see.. better move a bit slower!
+Helicopter#H1(4): What a lovely day!
+Helicopter#H2(5): What a lovely day!
+Helicopter#H3(6): What a lovely day!
+JetPlane#J2(8): Clear skies, let's go!
+Helicopter#H4(9): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B2(2): Floating through the clouds and sunshine!
+JetPlane#J1(3): Clear skies, let's go!
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): What a lovely day!
+Helicopter#H3(6): Brrr! It's getting kind of chilly, huh?
+JetPlane#J2(8): Clear skies, let's go!
+Helicopter#H4(9): Brrr! It's getting kind of chilly, huh?
+Baloon#B2(2) This feels eerie. I hope I don't see a ghost!
+JetPlane#J1(3) It's hard to see.. better move a bit slower!
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): What a lovely day!
+JetPlane#J2(8): The cold is gonna freeze my engines!
+Helicopter#H4(9): I can't see anything!
+Baloon#B2(2) This feels eerie. I hope I don't see a ghost!
+JetPlane#J1(3): Clear skies, let's go!
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): What a lovely day!
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+Helicopter#H4(9): Oh no, this rain is going to mess up my blades! I just straightened them!
+Baloon#B2(2) This feels eerie. I hope I don't see a ghost!
+JetPlane#J1(3): Clear skies, let's go!
+Helicopter#H1(4): What a lovely day!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): Brrr! It's getting kind of chilly, huh?
+JetPlane#J2(8): The cold is gonna freeze my engines!
+Helicopter#H4(9): Brrr! It's getting kind of chilly, huh?
+Baloon#B2(2): Floating through the clouds and sunshine!
+JetPlane#J1(3): Clear skies, let's go!
+Helicopter#H1(4): What a lovely day!
+Helicopter#H2(5): I can't see anything!
+Helicopter#H3(6): I can't see anything!
+JetPlane#J2(8): Rain! I better turn on my wipers!
+Helicopter#H4(9): I can't see anything!
+Baloon#B2(2): The snow is falling into my basket!
+JetPlane#J1(3): The cold is gonna freeze my engines!
+Helicopter#H1(4): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H2(5): What a lovely day!
+Helicopter#H3(6): Oh no, this rain is going to mess up my blades! I just straightened them!
+JetPlane#J2(8): Rain! I better turn on my wipers!
+Helicopter#H4(9): What a lovely day!
+Baloon#B2(2): Splish splash, I was taking a bath!
+JetPlane#J1(3): Rain! I better turn on my wipers!
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): I can't see anything!
+JetPlane#J2(8): The cold is gonna freeze my engines!
+Helicopter#H4(9): What a lovely day!
+Baloon#B2(2): The snow is falling into my basket!
+JetPlane#J1(3): The cold is gonna freeze my engines!
+Helicopter#H1(4): What a lovely day!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): Oh no, this rain is going to mess up my blades! I just straightened them!
+JetPlane#J2(8): The cold is gonna freeze my engines!
+Helicopter#H4(9): What a lovely day!
+Baloon#B2(2): Splish splash, I was taking a bath!
+JetPlane#J1(3): Rain! I better turn on my wipers!
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): Oh no, this rain is going to mess up my blades! I just straightened them!
+Helicopter#H3(6): What a lovely day!
+JetPlane#J2(8): The cold is gonna freeze my engines!
+Helicopter#H4(9): Brrr! It's getting kind of chilly, huh?
+Baloon#B2(2): The snow is falling into my basket!
+Baloon#B2(2): landing.
+Tower says: Baloon#B2(2) unregistered to weather tower.
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): I can't see anything!
+Helicopter#H3(6): I can't see anything!
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+Helicopter#H4(9): I can't see anything!
+JetPlane#J1(3): Rain! I better turn on my wipers!
+Helicopter#H1(4): I can't see anything!
+Helicopter#H2(5): I can't see anything!
+Helicopter#H3(6): Oh no, this rain is going to mess up my blades! I just straightened them!
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+Helicopter#H4(9): Brrr! It's getting kind of chilly, huh?
+Helicopter#H4(9): landing.
+Tower says: Helicopter#H4(9) unregistered to weather tower.
+JetPlane#J1(3): The cold is gonna freeze my engines!
+Helicopter#H1(4): What a lovely day!
+Helicopter#H2(5): I can't see anything!
+Helicopter#H3(6): I can't see anything!
+JetPlane#J2(8): Rain! I better turn on my wipers!
+JetPlane#J1(3): The cold is gonna freeze my engines!
+Helicopter#H1(4): Brrr! It's getting kind of chilly, huh?
+Helicopter#H1(4): landing.
+Tower says: Helicopter#H1(4) unregistered to weather tower.
+Helicopter#H3(6): Brrr! It's getting kind of chilly, huh?
+JetPlane#J2(8): Rain! I better turn on my wipers!
+JetPlane#J1(3): The cold is gonna freeze my engines!
+Helicopter#H2(5): What a lovely day!
+Helicopter#H3(6): What a lovely day!
+JetPlane#J2(8) It's hard to see.. better move a bit slower!
+JetPlane#J1(3) It's hard to see.. better move a bit slower!
+Helicopter#H2(5): I can't see anything!
+Helicopter#H3(6): What a lovely day!
+JetPlane#J2(8): Rain! I better turn on my wipers!

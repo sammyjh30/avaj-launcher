@@ -1,6 +1,5 @@
 package za.co.avaj.vehicles;
 
-import za.co.avaj.weather.Coordinates;
 import za.co.avaj.exceptions.InvalidAircraftException;
 
 public class AircraftFactory {

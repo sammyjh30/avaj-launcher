@@ -4,9 +4,7 @@ import za.co.avaj.exceptions.FailedUnregisterException;
 import za.co.avaj.logger.Logger;
 import za.co.avaj.vehicles.Flyable;
 
-import java.io.Flushable;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class Tower {
 	private ArrayList<Flyable> observers=new ArrayList<Flyable>();
@@ -14,13 +12,13 @@ public class Tower {
 
 	public void			register(Flyable flyable) {
 		observers.add(flyable);
-		log.logToFile("normal", "Tower says: " + flyable.getFlyableType() + "#" + flyable.getFlyableName() + "(" + flyable.getFlyableId() + ") registered to weather tower." );
+		log.logToFile("Tower says: " + flyable.getFlyableType() + "#" + flyable.getFlyableName() + "(" + flyable.getFlyableId() + ") registered to weather tower." );
 	}
 
 	public void			unregister(Flyable flyable) throws FailedUnregisterException {
 		if (observers.contains(flyable)) {
 			observers.remove(flyable);
-			log.logToFile("default", "Tower says: " + flyable.getFlyableType() + "#" + flyable.getFlyableName() +
+			log.logToFile("Tower says: " + flyable.getFlyableType() + "#" + flyable.getFlyableName() +
 					"(" + flyable.getFlyableId() + ") unregistered to weather tower.");
 		} else {
 			throw new FailedUnregisterException("ERROR: Cannot unregister Flyable: " + flyable.getFlyableName());
