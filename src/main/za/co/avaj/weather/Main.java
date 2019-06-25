@@ -5,14 +5,10 @@ import za.co.avaj.reader.Reader;
 
 import java.io.File;
 import java.lang.String;
-import java.nio.file.Files;
 
 public class Main {
 
 	public static void main (String[] args) {
-//		File file = new File("./simulation.txt");
-//		FileUtils.deleteQuietly(new File("./simulation.txt"));
-
 		try {
 			int numberOfRuns = 0;
 			Reader reader = new Reader();
@@ -27,9 +23,10 @@ public class Main {
 				reader.log.logToConsole("notify", "simulation.txt found and deleted successfully");
 			}
 
-			if ((numberOfRuns = reader.readFile(args[0])) <= 0) {
-				reader.log.logToFile("Invalid number of simulations to run.");
+			if ((numberOfRuns = reader.readFile(args[0])) == 0) {
 				throw new InvalidFileException((char)27 + "[31m" + "ERROR: " + (char)27 + "[37m"  + "Invalid number of simulations to run.");
+			} else if ((numberOfRuns = reader.readFile(args[0])) < 0) {
+				throw new InvalidFileException((char)27 + "[31m" + "ERROR: " + (char)27 + "[37m"  + "Invalid file.");
 			}
 			//Run simulation
 			while (numberOfRuns-- > 0) {
