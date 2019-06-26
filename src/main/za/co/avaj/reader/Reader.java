@@ -38,7 +38,6 @@ public class Reader {
 		AircraftFactory aircraftFactory = new AircraftFactory();
 		try {
 			if (details.length != 5 || !isStringInt(details[2]) || !isStringInt(details[3]) || !isStringInt(details[4])) {
-				System.out.println("TEST1");
 				throw new InvalidAircraftException((char) 27 + "[31m" + "ERROR: " + (char) 27 + "[37m" + "Invalid details, failed to construct new Aircraft: " + details[0]);
 			} else {
 				switch (details[0]) {
@@ -67,7 +66,6 @@ public class Reader {
 						this.weatherTower.register(jetPlane);
 						break;
 					default:
-						System.out.println("TEST2");
 						throw new InvalidAircraftException((char) 27 + "[31m" + "ERROR: " + (char) 27 + "[37m" + "failed to construct new Aircraft: " + details[0]);
 				}
 			}
@@ -99,14 +97,13 @@ public class Reader {
 						} else {
 							//Create and register aircraft
 							String details[] = st.split(" ");
-							if (this.interpretLine(details) == -1) {
+							if (this.interpretLine(details) != 1) {
 								return (-1);
 							}
 						}
 					} catch (InvalidFileException e) {
 						e.printStackTrace();
 					}
-
 					line++;
 				}
 			} catch (IOException e) {
