@@ -19,9 +19,9 @@ public class WeatherProvider {
 
 	public String				getCurrentWeather(Coordinates coordinates) {
 		Random rand = new Random();
-		int randInt = abs(rand.nextInt(coordinates.getHeight() +
-												coordinates.getLatitude() +
-												coordinates.getLatitude()));
+		int randInt = abs(rand.nextInt(abs(coordinates.getHeight()) +
+												abs(coordinates.getLatitude()) +
+												abs(coordinates.getLatitude())));
 		randInt = randInt % 4;
 		return weather[randInt];
 	}
